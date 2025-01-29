@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Homepage</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body>
+
+      <section class="main_wrapper">
+         <header class="cs_header">
+            <div class="container">
+               <div class="inner_header">
+                  <div class="logo_ui">
+                     <a href="javscript:;"><img src="images/header_logo.svg" alt="logo" /> </a>
+                  </div>
+                  <div class="nav_sec" id="navDiv">
+                     <div class="mobile_header">
+                        <div class="logo_ui">
+                           <a href="javscript:;"><img src="images/header_logo.svg" alt="logo" /> </a>
+                        </div>
+                        <button class="hamburger" id="toggleButton2">
+                           <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <rect x="0.477539" y="20.3965" width="28.845" height="2.3076" rx="1.1538" transform="rotate(-45 0.477539 20.3965)" fill="#D9D9D9"/>
+                              <rect x="1.63135" width="28.845" height="2.3076" rx="1.1538" transform="rotate(45 1.63135 0)" fill="#D9D9D9"/>
+                              </svg>
+                                                               
+                        </button>
+                     </div>
+                     <ul class="nav_list">
+                        <li class="active"><a href="javscript:;">Home</a></li> 
+                        <li class=""><a href="#features">Features</a></li> 
+                        <li><a href="#pricing">Pricing</a></li>
+                     </ul>
+                     <div class="btn_wrapper">
+                        <a href="javascript:;" class="secondary_btn">Login</a>
+                        <a href="#contact" class="primary_btn">Get Started</a>
+                     </div>
+
+                     <div class="mob_social_links">
+                        <ul>
+                           <li>
+                              <a href="javascript:;">
+                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="16" cy="16" r="16" fill="#A088E4"/>
+                                    <path d="M22.8008 22.7988V18.1109C22.8008 15.8069 22.3048 14.0469 19.6168 14.0469C18.3208 14.0469 17.4568 14.7509 17.1048 15.4229H17.0728V14.2549H14.5288V22.7988H17.1848V18.5589C17.1848 17.4389 17.3928 16.3669 18.7688 16.3669C20.1288 16.3669 20.1448 17.6309 20.1448 18.6229V22.7828H22.8008V22.7988Z" fill="white"/>
+                                    <path d="M10.207 14.2559H12.863V22.7998H10.207V14.2559Z" fill="white"/>
+                                    <path d="M11.536 10C10.688 10 10 10.688 10 11.536C10 12.384 10.688 13.088 11.536 13.088C12.384 13.088 13.072 12.384 13.072 11.536C13.072 10.688 12.384 10 11.536 10Z" fill="white"/>
+                                    </svg>                                                                  
+                              </a>
+                           </li>
+                           <li>
+                              <a href="javascript:;">
+                                 Terms & Conditions                                   
+                              </a>
+                           </li>
+                           <li>
+                              <a href="javascript:;">
+                                 Privacy Policy
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+
+                     
+                  </div>
+                  <button class="hamburger" id="toggleButton">
+                     <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="25" height="2" rx="1" fill="#D9D9D9"/>
+                        <rect y="20" width="25" height="2" rx="1" fill="#D9D9D9"/>
+                        <rect x="7" y="10" width="18" height="2" rx="1" fill="#D9D9D9"/>
+                        </svg>
+                                              
+                  </button>
+               </div>
+            </div>
+         </header>
+
+         <section class="hero_sec">
+            <div class="container">
+               <div class="circle_bg circle_sm"></div>
+               <div class="circle_bg circle_md"></div>
+               <div class="circle_bg circle_lg"></div>
+                  <div class="banner_inner_sec">
+                     <div class="content_blk">
+                        <h1>Work Reimagined</h1>
+                        <p>We have redesigned how you work. Imagine a day off in your workweek.</p>
+                        <div class="btn_wrap">
+                           <a href="#contact" class="primary_btn">Get Started </a>
+                        </div>
+                        <div class="image_blk">
+                           <img src="images/hero_banner.png" alt="" />
+                        </div>
+                     </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- features section html start here -->
+         <section class="features_sec" id="features">
+            <div class="container">
+               <div class="top_content">
+                  <h4 class="heading4">Features</h4>
+                  <p class="desc">
+                     Orgos brings together powerful features to simplify your operations, reduce overhead, and boost productivity. Here’s how we can help:
+                  </p>
+               </div>
+               <div class="vertical_tav_wrappers">
+                  <div class="d-flex align-items-center justify-content-between">
+                     <!-- Navigation Pills -->
+                     <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#v-pills-Intuitive" role="tab" aria-selected="true">
+                           <div class="tab_top_sec">
+                              <i class="icon"><img src="images/tab_icon.svg" alt="" /></i>
+                              Intuitive Design
+                           </div>
+                           <div class="tab_inner_content">
+                              <img src="images/tab1_img.png" alt="" />
+                           </div>
+                        </button>
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-Management" role="tab" aria-selected="false">
+                           <div class="tab_top_sec">
+                              <i class="icon"><img src="images/tab_icon.svg" alt="" /></i>Unified Management </div>
+                              <div class="tab_inner_content">
+                                 <img src="images/tab1_img.png" alt="" />
+                            </div>
+                        </button>
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-Chat" role="tab" aria-selected="false">
+                           <div class="tab_top_sec"> <i class="icon"><img src="images/tab_icon.svg" alt="" /></i>Chat Bot Integration
+                           </div>
+                           <div class="tab_inner_content">
+                              <img src="images/tab1_img.png" alt="" />
+                           </div>
+                        </button>
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-quick-setup" role="tab" aria-selected="false">
+                           <div class="tab_top_sec">
+                              <i class="icon"><img src="images/tab_icon.svg" alt="" /></i>AI Powered Quick Setup
+                           </div>
+                           <div class="tab_inner_content">
+                              <img src="images/tab1_img.png" alt="" />
+                           </div>
+                        </button>
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-saves-time" role="tab" aria-selected="false">
+                           <div class="tab_top_sec">
+                              <i class="icon"><img src="images/tab_icon.svg" alt="" /></i>Saves Time
+                        </div>
+                        <div class="tab_inner_content">
+                           <img src="images/tab1_img.png" alt="" />
+                        </div>
+                        </button>
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-integrations" role="tab" aria-selected="false">
+                           <div class="tab_top_sec"> <i class="icon"><img src="images/tab_icon.svg" alt="" /></i>Integrations
+
+                        </div>
+                        <div class="tab_inner_content">
+                           <img src="images/tab1_img.png" alt="" />
+                        </div>
+                        </button>
+                     </div>
+                     <!-- Tab Content -->
+                     <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-Intuitive" role="tabpanel">
+                           <div class="tab_inner_content">
+                              <img src="images/tab1_img.png" alt="" />
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-Management" role="tabpanel">
+                           <div class="tab_inner_content">
+                              <img src="images/tab2_img.png" alt="" />
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-Chat" role="tabpanel">
+                           <div class="tab_inner_content">
+                              <img src="images/tab3_img.png" alt="" />
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-quick-setup" role="tabpanel">
+                           <div class="tab_inner_content">
+                              <img src="images/tab4_img.png" alt="" />
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-saves-time" role="tabpanel">
+                           <div class="tab_inner_content">
+                              <img src="images/tab5_img.png" alt="" />
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-integrations" role="tabpanel">
+                           <div class="tab_inner_content">
+                              <img src="images/tab6_img.png" alt="" />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- features section html End here -->
+
+         <!-- life cycle section html start here -->
+            <section class="life_cycle_sec">
+               <div class="container">
+                  <div class="top_content">
+                     <h4 class="heading4">Employee Life Cycle</h4>
+                     <p class="desc">
+                        A smooth and seamless employee life cycle is key to a thriving organization. Orgos makes managing your employees' journey-from hiring to offboarding-easy and efficient. Check out how Orgos supports each stage of the employee life cycle:
+                     </p>
+                  </div>
+                  <div class="cycle_wrapper">
+                     <img class="circle_image" src="images/life_cycle.png" alt="" />
+                     <div class="life_cycle_list">
+                        <div class="life_cycle_card card1">
+                           <div class="icon"><img src="images/icon1.svg" alt="" /></div>
+                           <p>Recruitment & Hiring</p>
+                        </div>
+                        <div class="life_cycle_card card2">
+                           <div class="icon"><img src="images/icon2.svg" alt="" /></div>
+                           <p>Onboarding & Compliance</p>
+                        </div>
+                        <div class="life_cycle_card card3">
+                           <div class="icon"><img src="images/icon3.svg" alt="" /></div>
+                           <p>Performance Management</p>
+                        </div>
+                        <div class="life_cycle_card card4">
+                           <div class="icon"><img src="images/icon4.svg" alt="" /></div>
+                           <p>Continuous Learning</p>
+                        </div>
+                        <div class="life_cycle_card card5">
+                           <div class="icon"><img src="images/icon5.svg" alt="" /></div>
+                           <p>Offboarding</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+         <!-- life cycle section html End here -->
+         <!-- testimonal html  start here  -->
+
+         <section class="testimonal_wrapper">
+            <div class="container">
+               <div class="testimonal_inner_sec">
+                  <div class="left_sec">
+                     <div class="star">
+                        <img src="images/Star_sm.svg" alt="" />
+                        <img src="images/Star_sm.svg" alt="" />
+                        <img src="images/Star_sm.svg" alt="" />
+                        <img src="images/Star_sm.svg" alt="" />
+                        <img src="images/Star_sm.svg" alt="" />
+                     </div>
+                     <div class="reviewd_text">
+                        <span class="bold_text">5.0</span> based on <span class="bold_text">425</span> Reviews
+                     </div>
+                     <h4 class="title">What our clients say?</h4>
+                     <div class="btn_wrapper">
+                        <button class="carousel-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                           <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M0.292893 8.70711C-0.0976311 8.31658 -0.0976311 7.68342 0.292893 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292893 8.70711ZM17 9H1V7H17V9Z" fill="#030E24"/>
+                              </svg>                           
+                        </button>
+                        <button class="carousel-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                           <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M16.7071 8.70711C17.0976 8.31658 17.0976 7.68342 16.7071 7.29289L10.3431 0.928932C9.95262 0.538408 9.31946 0.538408 8.92893 0.928932C8.53841 1.31946 8.53841 1.95262 8.92893 2.34315L14.5858 8L8.92893 13.6569C8.53841 14.0474 8.53841 14.6805 8.92893 15.0711C9.31946 15.4616 9.95262 15.4616 10.3431 15.0711L16.7071 8.70711ZM0 9H16V7H0V9Z" fill="#030E24"/>
+                              </svg>                           
+                        </button>
+                     </div>
+                  </div>
+                  <div class="right_sec">
+                     <div id="demo" class="carousel slide"  data-bs-ride="false">
+                        <div class="cstm_carousel_wrapper">
+                          <div class="carousel-item active">
+                           <div class="inner_content">
+                              <p class="desc">
+                                 This has completely transformed the way I work! It's intuitive, easy to use, and has saved me so much time. I can't imagine going back to my old methods. Highly recommend it to anyone looking for a reliable and efficient solution!
+                              </p>
+                              <div class="user_detail">
+                                 <div class="user_left_sec">
+                                    <span class="user_img"><img src="images/user.png" alt="" /></span>
+                                    <div class="content">
+                                       <label>John D.</label>
+                                       <p>Project Manager</p>
+                                    </div>
+                                 </div>
+                                 <div class="user_rating">
+                                    <img src="images/Star.svg" alt="" />
+                                    <img src="images/Star.svg" alt="" />
+                                    <img src="images/Star.svg" alt="" />
+                                    <img src="images/Star.svg" alt="" />
+                                    <img src="images/Star.svg" alt="" />
+                                 </div>
+                              </div>
+                           </div>
+                          </div>
+                          <div class="carousel-item">
+                           <div class="inner_content">
+                              <p class="desc">
+                                 This has completely transformed the way I work! It's intuitive, easy to use, and has saved me so much time. I can't imagine going back to my old methods. Highly recommend it to anyone looking for a reliable and efficient solution!
+                              </p>
+                              <div class="user_detail">
+                                 <div class="user_left_sec">
+                                    <span class="user_img"><img src="images/user.png" alt="" /></span>
+                                    <div class="content">
+                                       <label>John D.</label>
+                                       <p>Project Manager</p>
+                                    </div>
+                                 </div>
+                                 <div class="user_rating">
+                                    <img src="images/Star.svg" alt="" />
+                                    <img src="images/Star.svg" alt="" />
+                                    <img src="images/Star.svg" alt="" />
+                                    <img src="images/Star.svg" alt="" />
+                                    <img src="images/Star.svg" alt="" />
+                                 </div>
+                              </div>
+                           </div>
+                          </div>
+                          <div class="carousel-item">
+                           <div class="inner_content">
+                              <p class="desc">
+                                 This has completely transformed the way I work! It's intuitive, easy to use, and has saved me so much time. I can't imagine going back to my old methods. Highly recommend it to anyone looking for a reliable and efficient solution!
+                              </p>
+                              <div class="user_detail">
+                                 <div class="user_left_sec">
+                                    <span class="user_img"><img src="images/user.png" alt="" /></span>
+                                    <div class="content">
+                                       <label>John D.</label>
+                                       <p>Project Manager</p>
+                                    </div>
+                                 </div>
+                                 <div class="user_rating">
+                                    <img src="images/Star.svg" alt="" />
+                                    <img src="images/Star.svg" alt="" />
+                                    <img src="images/Star.svg" alt="" />
+                                    <img src="images/Star.svg" alt="" />
+                                    <img src="images/Star.svg" alt="" />
+                                 </div>
+                              </div>
+                           </div>
+                          </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
+         <!-- testimonal html End here -->
+         
+         <!-- Pricing section html start here -->
+            <section class="pricing_sec" id="pricing">
+               <div class="container">
+                  <h4 class="heading4">Pricing</h4>
+                  <div class="pricing_tab">
+                     <ul class="nav nav-tabs" id="pricingTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="annually-tab" data-bs-toggle="tab" data-bs-target="#annually" type="button" role="tab" aria-controls="annually" aria-selected="true">Annually
+                           <span class="offer_sec">Save 15%</span>
+                          </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="monthly-tab" data-bs-toggle="tab" data-bs-target="#monthly" type="button" role="tab" aria-controls="monthly" aria-selected="false">Monthly</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="annually" role="tabpanel" aria-labelledby="annually-tab">
+                           <div class="panel_content">
+                              <p class="subtitle">Special Pricing only for India</p>
+                              <div class="payment_card_wrapper">
+                                 <div class="payment_card">
+                                    <div class="top_sec">
+                                       <label>Free</label>
+                                       <p class="short_desc">Ideal for individuals</p>
+                                       <p class="discount_price"></p>
+                                       <p class="main_price">Free</p>
+                                       <p class="main_desc">Ideal for small teams or individuals. Access essential tools to manage tasks and get started without any cost. Perfect for testing and growth.</p>
+                                    </div>   
+                                    <button class="primary_gradient_btn">Get Started</button>
+                                 </div>
+
+                                 <div class="payment_card">
+                                    <div class="top_sec">
+                                       <label>Starter</label>
+                                       <p class="short_desc">Perfect for small teams</p>
+                                       <p class="discount_price">$2.99</p>
+                                       <p class="main_price">$1.99<span>/ per employee</span></p>
+                                       <p class="main_desc">Perfect for small teams, the Starter Plan offers essential tools to manage onboarding, performance, and compliance with ease, helping you focus on growth.</p>
+                                    </div>
+                                    <button class="primary_gradient_btn">Get Started</button>
+                                 </div>
+
+                                 <div class="payment_card">
+                                    <div class="top_sec">
+                                       <label>Growth</label>
+                                       <p class="short_desc">For mid-sized companies</p>
+                                       <p class="discount_price">$5.99</p>
+                                       <p class="main_price">$3.99<span>/ per employee</span></p>
+                                       <p class="main_desc">For mid-sized companies, the Growth Plan includes advanced features and integrations to streamline operations and support scaling efforts.</p>
+                                    </div>
+                                    <button class="primary_gradient_btn">Get Started</button>
+                                 </div>
+
+                                 <div class="payment_card">
+                                    <div class="top_sec">
+                                       <label>Enterprise</label>
+                                       <p class="short_desc">Designed for large businesses</p>
+                                       <p class="discount_price"></p>
+                                       <p class=" contact_text">Contact sales for pricing</p>
+                                       <p class="main_desc">Designed for large businesses, the Enterprise Plan offers custom solutions, advanced features, and dedicated support to manage complex operations at scale.</p>
+                                    </div>
+                                    <button class="primary_gradient_btn">Get Started</button>
+                                 </div>
+
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
+                           <div class="panel_content">
+                              <p class="subtitle">Special Pricing only for India</p>
+                              <div class="payment_card_wrapper">
+                                 <div class="payment_card">
+                                    <div class="top_sec">
+                                       <label>Free</label>
+                                       <p class="short_desc">Ideal for individuals</p>
+                                       <p class="discount_price"></p>
+                                       <p class="main_price">Free</p>
+                                       <p class="main_desc">Ideal for small teams or individuals. Access essential tools to manage tasks and get started without any cost. Perfect for testing and growth.</p>
+                                    </div>   
+                                    <button class="primary_gradient_btn">Get Started</button>
+                                 </div>
+
+                                 <div class="payment_card">
+                                    <div class="top_sec">
+                                       <label>Starter</label>
+                                       <p class="short_desc">Perfect for small teams</p>
+                                       <p class="discount_price">$2.99</p>
+                                       <p class="main_price">$1.99<span>/ per employee</span></p>
+                                       <p class="main_desc">Perfect for small teams, the Starter Plan offers essential tools to manage onboarding, performance, and compliance with ease, helping you focus on growth.</p>
+                                    </div>
+                                    <button class="primary_gradient_btn">Get Started</button>
+                                 </div>
+
+                                 <div class="payment_card">
+                                    <div class="top_sec">
+                                       <label>Growth</label>
+                                       <p class="short_desc">For mid-sized companies</p>
+                                       <p class="discount_price">$5.99</p>
+                                       <p class="main_price">$3.99<span>/ per employee</span></p>
+                                       <p class="main_desc">For mid-sized companies, the Growth Plan includes advanced features and integrations to streamline operations and support scaling efforts.</p>
+                                    </div>
+                                    <button class="primary_gradient_btn">Get Started</button>
+                                 </div>
+
+                                 <div class="payment_card">
+                                    <div class="top_sec">
+                                       <label>Enterprise</label>
+                                       <p class="short_desc">Designed for large businesses</p>
+                                       <p class="discount_price"></p>
+                                       <p class=" contact_text">Contact sales for pricing</p>
+                                       <p class="main_desc">Designed for large businesses, the Enterprise Plan offers custom solutions, advanced features, and dedicated support to manage complex operations at scale.</p>
+                                    </div>
+                                    <button class="primary_gradient_btn">Get Started</button>
+                                 </div>
+
+                              </div>
+                           </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+               </div>
+            </section>
+
+          <!-- Pricing section html End here -->
+
+         <section class="faq_wrapper">
+            <h4 class="heading4">FAQs</h4>
+            <div class="container">
+               <div class="faq_inner">
+                  <div class="accordion" id="accordionExample">
+                     <div class="accordion-item">
+                       <h2 class="accordion-header" id="headingOne">
+                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           What is the purpose of the Work Reimagined platform?
+                         </button>
+                       </h2>
+                       <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                         <div class="accordion-body">
+                           The Work Reimagined platform is designed to streamline operations and optimize productivity for startups and mid-sized companies. It centralizes key tasks like onboarding, policy compliance, compensation tracking, and asset management to help teams focus on growth.
+                         </div>
+                       </div>
+                     </div>
+                     <div class="accordion-item">
+                       <h2 class="accordion-header" id="headingTwo">
+                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           How long does it take to set up the platform?
+                         </button>
+                       </h2>
+                       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                         <div class="accordion-body">
+                           The Work Reimagined platform is designed to streamline operations and optimize productivity for startups and mid-sized companies. It centralizes key tasks like onboarding, policy compliance, compensation tracking, and asset management to help teams focus on growth.
+                         </div>
+                       </div>
+                     </div>
+                     <div class="accordion-item">
+                       <h2 class="accordion-header" id="headingThree">
+                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                           Can I manage my team’s operations in one place?
+                         </button>
+                       </h2>
+                       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                         <div class="accordion-body">
+                           The Work Reimagined platform is designed to streamline operations and optimize productivity for startups and mid-sized companies. It centralizes key tasks like onboarding, policy compliance, compensation tracking, and asset management to help teams focus on growth.
+                         </div>
+                       </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                           Does the platform integrate with communication tools like Slack and Teams?
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            The Work Reimagined platform is designed to streamline operations and optimize productivity for startups and mid-sized companies. It centralizes key tasks like onboarding, policy compliance, compensation tracking, and asset management to help teams focus on growth.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                           How much time can I save using this platform?
+                          </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            The Work Reimagined platform is designed to streamline operations and optimize productivity for startups and mid-sized companies. It centralizes key tasks like onboarding, policy compliance, compensation tracking, and asset management to help teams focus on growth.
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="contact_section" id="contact">
+            <div class="container">
+               <div class="circle_bg circle_sm"></div>
+               <div class="circle_bg circle_md"></div>
+               <div class="circle_bg circle_lg"></div>
+               <div class="contact_inner_sec">
+                  <div class="contact_title">
+                     <h5>Let’s Talk</h5>
+                     <p>Have questions or need help? Reach out to our support team and we’ll get back to you as soon as possible.</p>
+                  </div>
+                     <form>
+                        <div class="form_wrapper">
+
+                           <div class="form-group">
+                              <input type="text" placeholder="Name" />
+                           </div>
+
+                           <div class="form-group">
+                              <input type="text" placeholder="Email" />
+                           </div>
+
+                           <div class="form-group">
+                              <input type="text" placeholder="Company Name" />
+                           </div>
+
+                           <div class="form-group">
+                              <textarea type="text" placeholder="Name of your Venture"></textarea>
+                           </div>
+                           
+                           <div class="btn-wraper text-center">
+                              <button class="primary_btn">Submit
+                              </button>
+                           </div>
+
+                        </div>
+                     </form>
+               </div>
+            </div>
+         </section>
+
+
+         <footer class="cs_footer">
+               <div class="top_footer">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-6 col-lg-6 col-xl-7">
+                           <div class="footer_logo_wrapper">
+                              <div class="footer_logo">
+                                 <a href="javascript:;"><img src="images/header_logo.svg" alt="logo" /></a>
+                              </div>
+                              <div class="partner"><img src="images/gdpr.png" alt="" /></div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-5">
+                           <div class="footer_navbar_wrap">
+                              <div class="footer_navbar">
+                                 <label>Quick links</label>
+                                 <ul>
+                                    <li><a href="javascript:;">Home</a></li>
+                                    <li><a href="javascript:;">Features</a></li>
+                                    <li><a href="javascript:;">Pricing</a></li>
+                                    <li><a href="javascript:;">Resources</a></li>
+                                 </ul>
+                              </div>
+                              <div class="footer_navbar contact_address">
+                                 <label>CONTACT US</label>
+                                 <ul>
+                                    <li><a href="javascript:;">info@example.com</a></li>
+                                    <li><a href="javascript:;">123-456-789</a></li>
+                                    <li>rR building, add3, add2, chennai - 556767</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="container">
+               <div class="bottom_footer">
+                     <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-4 align-self-center">
+                           <p class="copyright">© 2025 ORGOS. All rights reserved.</p>
+                        </div>
+                        <div class="col-md-12 col-lg-4 align-self-center">
+                           <ul class="d-flex static_page_url">
+                              <li><a href="javascript:;">Terms & Conditions</a></li>
+                              <li><a href="javascript:;">Privacy Policy</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mt-20 align-self-center d-flex flex-row-reverse">
+                           <a href="javascript:;">
+                              <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <circle cx="17.5" cy="17.5" r="17.5" fill="white"/>
+                                 <path d="M24.0006 23.9992V18.8717C24.0006 16.3518 23.4581 14.4268 20.5181 14.4268C19.1006 14.4268 18.1556 15.1968 17.7706 15.9318H17.7356V14.6543H14.9531V23.9992H17.8581V19.3617C17.8581 18.1367 18.0856 16.9642 19.5906 16.9642C21.0781 16.9642 21.0956 18.3467 21.0956 19.4317V23.9817H24.0006V23.9992Z" fill="#1A1B20"/>
+                                 <path d="M10.2266 14.6553H13.1316V24.0002H10.2266V14.6553Z" fill="#1A1B20"/>
+                                 <path d="M11.68 10C10.7525 10 10 10.7525 10 11.68C10 12.6075 10.7525 13.3775 11.68 13.3775C12.6075 13.3775 13.36 12.6075 13.36 11.68C13.36 10.7525 12.6075 10 11.68 10Z" fill="#1A1B20"/>
+                                 </svg>                                 
+                           </a>
+                        </div>
+                     </div>
+                  
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+      <script>
+
+         //mobile nav bar function  start 
+               document.getElementById('toggleButton').addEventListener('click', function () {
+                  const myDiv = document.getElementById('navDiv');
+                  myDiv.classList.toggle('visible');
+               });
+
+               const navDiv = document.getElementById('navDiv');
+               const navAnchors = navDiv.querySelectorAll('a');
+
+               navAnchors.forEach(anchor => {
+                  anchor.addEventListener('click', function () {
+                     const allListItems = navDiv.querySelectorAll('li');
+                     allListItems.forEach(li => li.classList.remove('active'));
+                     const parentLi = anchor.closest('li');
+                     if (parentLi) {
+                           parentLi.classList.add('active');
+                     }
+                     navDiv.classList.toggle('visible');
+                  });
+               });
+               
+               document.getElementById('toggleButton2').addEventListener('click', function () {
+               const myDiv = document.getElementById('navDiv');
+                  myDiv.classList.toggle('visible');
+               });
+    //mobile nav bar function  close 
+
+               // scroll effect 
+
+               document.addEventListener("DOMContentLoaded", function() {
+               document.querySelectorAll("a").forEach(function(anchor) {
+                  anchor.addEventListener("click", function(event) {
+                     if (this.hash !== "") {
+                     event.preventDefault();
+                     const hash = this.hash;
+                     const targetElement = document.querySelector(hash);
+                     if (targetElement) {
+                        window.scrollTo({
+                           top: targetElement.offsetTop,
+                           behavior: "smooth"
+                        });
+                        setTimeout(function() {
+                           window.location.hash = hash;
+                        }, 800);
+                     }
+                     }
+                  });
+               });
+               });
+
+
+      </script>
+   </body>
+</html>
