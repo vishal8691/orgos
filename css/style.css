@@ -213,7 +213,7 @@ h1,h2,h3,h4,h5,h6, p, ul, li , a{
     width:100%;
     justify-content:space-between;
     @media (max-width:767px){
-        height:60%;
+        height:65%;
         flex-direction:column;
     }
 }
@@ -222,7 +222,7 @@ h1,h2,h3,h4,h5,h6, p, ul, li , a{
     display:none;
     @media (max-width:767px){
         display:block;
-        margin-top:36%;
+        margin-top:30%;
     }
 }
 .nav_sec .mob_social_links ul{
@@ -258,7 +258,7 @@ h1,h2,h3,h4,h5,h6, p, ul, li , a{
     @media (max-width:767px){
         flex-direction:column;
         align-items:center;
-        padding-bottom:10%;
+        padding-bottom:15%;
         padding-top:15%;
         padding-right:0;
         gap:50px;
